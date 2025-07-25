@@ -147,6 +147,17 @@ span {
         display: none;
     }
 
+    .nav-links.toggle {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 62px;
+        right: 0;
+        z-index: 1;
+        background-color: #e0e0e0;
+        width: 200px;
+    }
+
     .menu-bar {
         display: flex;
         background: none;
@@ -830,7 +841,6 @@ span {
 }
 
 /* ShimmerEffect */
-/* App.css */
 .shimmer-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -841,7 +851,7 @@ span {
 
 .shimmer-card {
     width: 220px;
-    height: 300px;
+    height: 330px;
     border-radius: 12px;
     background: #f6f7f8;
     position: relative;
@@ -858,6 +868,37 @@ span {
     width: 150px;
     background: linear-gradient(to right, transparent 0%, #e0e0e0 50%, transparent 100%);
     animation: shimmer 1.5s infinite;
+}
+
+.shimmer-card .shimmer-img {
+    height: 55%;
+    width: 95%;
+    background-color: #807f7f;
+    margin-block: 10px;
+    margin-inline-start: 3%;
+}
+
+.shimmer-card .shimmer-h1 {
+    height: 7%;
+    width: 50%;
+    background-color: #807f7f;
+    margin-bottom: 4px;
+    margin-inline-start: 4%;
+}
+
+.shimmer-card .shimmer-p {
+    height: 5.5%;
+    width: 70%;
+    background-color: #807f7f;
+    margin-bottom: 4px;
+    margin-inline-start: 4%;
+}
+
+.shimmer-card .shimmer-btn {
+    height: 9%;
+    width: 60%;
+    background-color: #807f7f;
+    margin-inline-start: 5%;
 }
 
 @keyframes shimmer {

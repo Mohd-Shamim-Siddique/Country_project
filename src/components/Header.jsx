@@ -31,14 +31,7 @@ const Header = () => {
     <div className='header'>
       <div className='nav flex container'>
         <h1>WorldAtlas</h1>
-        <div className='flex nav-links'>
-          <NavLink to='/'>Home</NavLink>
-          <NavLink to='/about'>About</NavLink>
-          <NavLink to='/country'>Country</NavLink>
-          <NavLink to='/contact'>Contact</NavLink>
-          <div className='flex icons' onClick={() => setIsDark(!isDark)}>{isDark ? <FaSun /> : <FaMoon />}{isDark ? 'Light-Mode' : 'Dark Mode'}</div>
-        </div>
-        <div ref={myRef} className='flex nav-toggle toggle'>
+        <div ref={myRef} className='flex nav-links '>
           <NavLink to='/'>Home</NavLink>
           <NavLink to='/about'>About</NavLink>
           <NavLink to='/country'>Country</NavLink>
