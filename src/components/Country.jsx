@@ -4,7 +4,7 @@ import Loader from './Loader'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import SearchFilterData from './SearchFilterData'
-import CountryShimmer from './countryShimmer'
+import CountryShimmer from './CountryShimmer'
 
 const Country = () => {
   const [countries, setCountries] = useState([])
