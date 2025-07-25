@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useTransition } from 'react'
 import { getCountry } from '../Api/CountryApi'
-import Loader from './Loader'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import SearchFilterData from './SearchFilterData'

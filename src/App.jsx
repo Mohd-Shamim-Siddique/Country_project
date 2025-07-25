@@ -3,11 +3,11 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import RootLayout from './components/RootLayout'
 import { About, Contact, Country, Home } from './components/index'
 import CountryDetails from './components/CountryDetails'
-import { indvCountryData } from './Api/CountryApi'
+import Error from './components/Error'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<RootLayout />} >
+    <Route path='/' element={<RootLayout />} errorElement={<Error />} >
       <Route path='' element={<Home />} />
       <Route path='about' element={<About />} />
       <Route path='country' element={<Country />} />
