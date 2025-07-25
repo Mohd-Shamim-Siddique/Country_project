@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "country": "Japan",
+        "capital": "Tokyo",
+        "population": "124 million",
+        "fact": "Japan has more than 5 million vending machines—one for about every 25 people!"
+    },
+    {
+        "id": 2,
+        "country": "Brazil",
+        "capital": "Brasília",
+        "population": "216 million",
+        "fact": "The Amazon Rainforest, largely in Brazil, produces 20% of the world’s oxygen."
+    },
+    {
+        "id": 3,
+        "country": "Canada",
+        "capital": "Ottawa",
+        "population": "40 million",
+        "fact": "Canada has more lakes than the rest of the world combined."
+    },
+    {
+        "id": 4,
+        "country": "Egypt",
+        "capital": "Cairo",
+        "population": "111 million",
+        "fact": "The Great Pyramid of Giza is the only one of the Seven Wonders of the Ancient World still standing."
+    },
+    {
+        "id": 5,
+        "country": "Australia",
+        "capital": "Canberra",
+        "population": "27 million",
+        "fact": "Australia is home to more kangaroos than people."
+    },
+    {
+        "id": 6,
+        "country": "South Korea",
+        "capital": "Seoul",
+        "population": "52 million",
+        "fact": "South Korea has the fastest internet speeds in the world."
+    },
+    {
+        "id": 7,
+        "country": "Norway",
+        "capital": "Oslo",
+        "population": "5.5 million",
+        "fact": "Norway was ranked the world's happiest country in multiple years and has one of the highest standards of living."
+    },
+    {
+        "id": 8,
+        "country": "India",
+        "capital": "New Delhi",
+        "population": "1.44 billion",
+        "fact": "India is the world's largest democracy by population and has over 22 official languages."
+    },
+    {
+        "id": 9,
+        "country": "Iceland",
+        "capital": "Reykjavik",
+        "population": "390,000",
+        "fact": "Iceland runs almost entirely on renewable energy—mostly geothermal and hydropower."
+    },
+    {
+        "id": 10,
+        "country": "Mexico",
+        "capital": "Mexico City",
+        "population": "132 million",
+        "fact": "Chocolate originated in ancient Mexico, where the Aztecs believed cacao beans were a gift from the gods."
+    },
+    {
+        "id": 11,
+        "country": "New Zealand",
+        "capital": "Wellington",
+        "population": "5.3 million",
+        "fact": "New Zealand has no native land mammals (except for bats) and is home to the famous, flightless kiwi bird."
+    }
+]
